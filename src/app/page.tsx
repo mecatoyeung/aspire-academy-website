@@ -1,10 +1,12 @@
 export default function Home() {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
   return (
     <div className="min-h-screen text-slate-800">
       <header className="sticky top-0 z-50 border-b border-white/70 bg-white/70 backdrop-blur-xl">
         <nav className="mx-auto flex w-full max-w-7xl flex-wrap items-center justify-between gap-y-3 px-6 py-4 lg:px-10">
           <a href="#home" className="flex items-center gap-3">
-            <img src="/img/logo.png" alt="Aspire Academy Logo" width="280" height="164" />
+            <img src={`${basePath}/img/logo.png`} alt="Aspire Academy Logo" width="280" height="164" />
           </a>
 
           <ul className="order-3 flex w-full items-center justify-between border-t border-slate-200 pt-3 text-xs font-bold sm:order-2 sm:w-auto sm:justify-start sm:gap-8 sm:border-0 sm:pt-0 sm:text-sm">
@@ -76,7 +78,7 @@ export default function Home() {
           </div>
 
           <div className="rounded-3xl border border-white bg-white/85 p-8 shadow-2xl backdrop-blur-lg">
-            <img src="/img/mascot-riding-a-rocket.jpg" alt="Aspire Academy Students" className="rounded-2xl" />
+            <img src={`${basePath}/img/mascot-riding-a-rocket.jpg`} alt="Aspire Academy Students" className="rounded-2xl" />
           </div>
         </section>
 
