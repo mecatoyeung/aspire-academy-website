@@ -3,7 +3,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen text-slate-800">
-      <header className="sticky top-0 z-50 border-b border-white/70 bg-white/70 backdrop-blur-xl">
+      <header className="border-b border-white/70 bg-white/70 backdrop-blur-xl">
         <nav className="mx-auto flex w-full max-w-7xl flex-wrap items-center justify-between gap-y-3 px-6 py-4 lg:px-10">
           <a href="#home" className="flex items-center gap-3">
             <img src={`${basePath}/img/logo.png`} alt="Aspire Academy Logo" width="280" height="164" />
@@ -86,22 +86,18 @@ export default function Home() {
           <div className="mx-auto w-full max-w-7xl px-6 lg:px-10">
             <p className="text-sm font-bold uppercase tracking-wider text-smart-green-dark">Courses</p>
             <h2 className="mt-1 font-display text-3xl text-slate-900 sm:text-4xl">STEAM Pathways for Every Learner</h2>
-            <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-              <article className="rounded-2xl bg-gradient-to-b from-smart-blue to-smart-blue-dark p-6 text-white">
-                <h3 className="mb-2 font-display text-xl">Science Explorers</h3>
-                <p className="text-sm text-blue-100">Fun lab investigations that spark curiosity and discovery.</p>
+            <div className="mt-10 grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-6 xl:grid-cols-4">
+              <article className="rounded-2xl bg-gradient-to-b from-smart-blue to-smart-blue-dark p-2 text-white md:p-4">
+                <img src={`${basePath}/img/mascot-creative-math-and-design.jpg`} alt="Coding & AI Studio" className="mb-0 h-72 w-full rounded-lg object-contain md:mb-4 md:h-144 md:object-cover" />
               </article>
-              <article className="rounded-2xl bg-gradient-to-b from-smart-green to-smart-green-dark p-6 text-white">
-                <h3 className="mb-2 font-display text-xl">Coding & AI Studio</h3>
-                <p className="text-sm text-emerald-100">From coding basics to AI concepts through creative tasks.</p>
+              <article className="rounded-2xl bg-gradient-to-b from-smart-green to-smart-green-dark p-2 text-white md:p-4">
+                <img src={`${basePath}/img/mascot-science-explorers.jpg`} alt="Science Explorers" className="mb-0 h-72 w-full rounded-lg object-contain md:mb-4 md:h-144 md:object-cover" />
               </article>
-              <article className="rounded-2xl bg-gradient-to-b from-cyan-600 to-cyan-800 p-6 text-white">
-                <h3 className="mb-2 font-display text-xl">Engineering Builders</h3>
-                <p className="text-sm text-cyan-100">Design, prototype, and test inventions with teamwork.</p>
+              <article className="rounded-2xl bg-gradient-to-b from-cyan-600 to-cyan-800 p-2 text-white md:p-4">
+                <img src={`${basePath}/img/mascot-coding-and-ai-studio.jpg`} alt="Coding & AI Studio" className="mb-0 h-72 w-full rounded-lg object-contain md:mb-4 md:h-144 md:object-cover" />
               </article>
-              <article className="rounded-2xl bg-gradient-to-b from-emerald-600 to-teal-800 p-6 text-white">
-                <h3 className="mb-2 font-display text-xl">Creative Math & Design</h3>
-                <p className="text-sm text-emerald-100">Apply math concepts to art, architecture, and digital media.</p>
+              <article className="rounded-2xl bg-gradient-to-b from-emerald-600 to-teal-800 p-2 text-white md:p-4">
+                <img src={`${basePath}/img/mascot-engineer-builders.jpg`} alt="Engineering Builders" className="mb-0 h-72 w-full rounded-lg object-contain md:mb-4 md:h-144 md:object-cover" />
               </article>
             </div>
           </div>
