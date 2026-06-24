@@ -50,7 +50,7 @@ function getPageHref(locale: Locale, page: "home" | SectionSlug) {
 }
 
 function getDiscoverCoursesHref(locale: Locale) {
-  return locale === "zh-hk" ? "/discover-courses" : `/${locale}/discover-courses`;
+  return `/${locale}/discover-courses`;
 }
 
 function CourseSiteLayout({

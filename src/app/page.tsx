@@ -15,7 +15,7 @@ export default function RootPage() {
           Home
         </Link>
         <Link
-          href="/discover-courses"
+          href={`/${defaultLocale}/discover-courses`}
           className="rounded-full border border-smart-blue px-5 py-2.5 text-sm font-semibold text-smart-blue transition hover:bg-smart-blue hover:text-white"
         >
           Discover Courses
