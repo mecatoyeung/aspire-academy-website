@@ -5,8 +5,8 @@
   --color-smart-blue-dark: #217DBE;
   --color-smart-green: #98CD61;
   --color-smart-green-dark: #75C482;
-  --font-sans: var(--font-nunito);
-  --font-display: var(--font-poppins);
+  --font-sans: var(--font-nunito), "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  --font-display: var(--font-poppins), "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 }
 
 body {
