@@ -11,13 +11,26 @@
 
 :root {
   color-scheme: light;
+  background: #ffffff !important;
 }
 
 html, body {
+  background: #ffffff !important;
   background-color: #ffffff !important;
   color: #000000 !important;
 }
 
 body {
   min-height: 100vh;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root,
+  html,
+  body {
+    color-scheme: light;
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
 }

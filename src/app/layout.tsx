@@ -1,4 +1,5 @@
 import { Nunito, Poppins } from "next/font/google";
+import type { Viewport } from "next";
 
 import "./globals.css";
 
@@ -15,9 +16,10 @@ const poppins = Poppins({
   display: "swap",
 });
 
-export const viewport = {
-  colorScheme: 'light',
-}
+export const viewport: Viewport = {
+  colorScheme: "light",
+  themeColor: "#ffffff",
+};
 
 export default function RootLayout({
   children,
