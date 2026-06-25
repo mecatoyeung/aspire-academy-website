@@ -9,7 +9,15 @@
   --font-display: var(--font-poppins), "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 }
 
+:root {
+  color-scheme: light;
+}
+
+html, body {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
 body {
   min-height: 100vh;
-  background: #fff;
 }

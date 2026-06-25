@@ -15,6 +15,10 @@ const poppins = Poppins({
   display: "swap",
 });
 
+export const viewport = {
+  colorScheme: 'light',
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
