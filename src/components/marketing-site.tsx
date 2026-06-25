@@ -276,7 +276,7 @@ export function MarketingSite({ locale, currentPage }: MarketingSiteProps) {
         <nav className="mx-auto flex w-full max-w-7xl flex-wrap items-center justify-between gap-4 px-6 py-4 lg:px-10">
           <Link href={getPageHref(locale, "home")} className="flex items-center gap-3">
             <Image
-              src={`${basePath}/img/logo.png`}
+              src={`${basePath}/img/webp.png`}
               alt={`${copy.footer.academyName} Logo`}
               width={280}
               height={164}
