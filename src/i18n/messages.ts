@@ -82,8 +82,8 @@ export type SiteCopy = {
 const messages: Record<Locale, SiteCopy> = {
   "zh-hk": {
     metadata: {
-      title: "Aspire Academy | 啟發未來可能",
-      description: "Aspire Academy 透過實作、導師支援與真實世界挑戰，為兒童與青少年提供多元 STEAM 課程。",
+      title: "Aon Academy | 啟發未來可能",
+      description: "Aon Academy 透過實作、導師支援與真實世界挑戰，為兒童與青少年提供多元 STEAM 課程。",
     },
     navigation: {
       home: "首頁",
@@ -98,16 +98,16 @@ const messages: Record<Locale, SiteCopy> = {
       eyebrow: "面向未來的 STEAM 學習",
       titleLead: "啟發年輕頭腦，",
       titleHighlight: "開拓未來可能",
-      description: "Aspire Academy 透過動手做專案、導師支援與真實世界挑戰，為兒童與青少年提供多元 STEAM 課程。",
+      description: "Aon Academy 透過動手做專案、導師支援與真實世界挑戰，為兒童與青少年提供多元 STEAM 課程。",
       primaryCta: "探索課程",
-      secondaryCta: "認識 Aspire Academy",
-      imageAlt: "Aspire Academy 學生",
+      secondaryCta: "認識 Aon Academy",
+      imageAlt: "Aon Academy 學生",
     },
     subpages: {
       courses: {
         eyebrow: "課程",
         title: "為不同學習者打造的 STEAM 成長路徑",
-        description: "從創意數學到工程實作，Aspire Academy 以循序漸進的課程設計，培養孩子的好奇心、創造力與解難能力。",
+        description: "Aon Academy 以循序漸進的課程設計，培養孩子的好奇心、創造力與解難能力。",
       },
       stories: {
         eyebrow: "學生成果",
@@ -122,7 +122,7 @@ const messages: Record<Locale, SiteCopy> = {
       about: {
         eyebrow: "關於我們",
         title: "以實踐與啟發帶領下一代前行",
-        description: "Aspire Academy 致力讓學習變得具體、鼓舞人心，並與現實世界緊密連結，幫助孩子建立面向未來的能力。",
+        description: "Aon Academy 致力讓學習變得具體、鼓舞人心，並與現實世界緊密連結，幫助孩子建立面向未來的能力。",
       },
     },
     courses: {
@@ -164,7 +164,7 @@ const messages: Record<Locale, SiteCopy> = {
           author: "Maya，15 歲",
         },
         {
-          quote: "「Aspire 令科學變得很有趣，我現在希望將來可以成為工程師。」",
+          quote: "Aon 令科學變得很有趣，我現在希望將來可以成為工程師。」",
           author: "Ethan，11 歲",
         },
       ],
@@ -177,15 +177,15 @@ const messages: Record<Locale, SiteCopy> = {
     },
     about: {
       label: "關於我們",
-      title: "Aspire Academy",
-      description: "Aspire Academy 幫助兒童與青少年建立信心與能力，以 STEAM 塑造未來。我們讓學習變得實用、有啟發性，並與真實生活緊密相連。",
+      title: "Aon Academy",
+      description: "Aon Academy 幫助兒童與青少年建立信心與能力，以 STEAM 塑造未來。我們讓學習變得實用、有啟發性，並與真實生活緊密相連。",
     },
     pageCta: {
       backHome: "返回首頁",
       exploreCourses: "瀏覽課程",
     },
     footer: {
-      academyName: "Aspire Academy",
+      academyName: "Aon Academy",
       tagline: "啟發未來可能",
       contactUs: "聯絡我們",
       emailLabel: "電郵",
@@ -199,8 +199,8 @@ const messages: Record<Locale, SiteCopy> = {
   },
   en: {
     metadata: {
-      title: "Aspire Academy | Pioneer the possible",
-      description: "Aspire Academy offers a wide range of STEAM courses for kids and teenagers through hands-on projects, mentor support, and real-world challenges.",
+      title: "Aon Academy | Pioneer the possible",
+      description: "Aon Academy offers a wide range of STEAM courses for kids and teenagers through hands-on projects, mentor support, and real-world challenges.",
     },
     navigation: {
       home: "Home",
@@ -215,16 +215,16 @@ const messages: Record<Locale, SiteCopy> = {
       eyebrow: "Future-Ready STEAM Learning",
       titleLead: "Inspire Young Minds to",
       titleHighlight: "Pioneer the possible",
-      description: "Aspire Academy offers a wide range of STEAM courses for kids and teenagers through hands-on projects, mentor support, and real-world challenges.",
+      description: "Aon Academy offers a wide range of STEAM courses for kids and teenagers through hands-on projects, mentor support, and real-world challenges.",
       primaryCta: "Explore Courses",
-      secondaryCta: "Meet Aspire Academy",
-      imageAlt: "Aspire Academy Students",
+      secondaryCta: "Meet Aon Academy",
+      imageAlt: "Aon Academy Students",
     },
     subpages: {
       courses: {
         eyebrow: "Courses",
         title: "STEAM pathways for every learner",
-        description: "From creative math to engineering builds, Aspire Academy helps students grow curiosity, confidence, and practical problem-solving skills.",
+        description: "From creative math to engineering builds, Aon Academy helps students grow curiosity, confidence, and practical problem-solving skills.",
       },
       stories: {
         eyebrow: "Success Stories",
@@ -239,7 +239,7 @@ const messages: Record<Locale, SiteCopy> = {
       about: {
         eyebrow: "About Us",
         title: "Practical, inspiring learning for the next generation",
-        description: "Aspire Academy helps children and teenagers build the confidence and capabilities needed to shape tomorrow through STEAM.",
+        description: "Aon Academy helps children and teenagers build the confidence and capabilities needed to shape tomorrow through STEAM.",
       },
     },
     courses: {
@@ -281,7 +281,7 @@ const messages: Record<Locale, SiteCopy> = {
           author: "Maya, Age 15",
         },
         {
-          quote: '"Aspire made science exciting. I now want to become an engineer."',
+          quote: '"Aon made science exciting. I now want to become an engineer."',
           author: "Ethan, Age 11",
         },
       ],
@@ -294,15 +294,15 @@ const messages: Record<Locale, SiteCopy> = {
     },
     about: {
       label: "About Us",
-      title: "Aspire Academy",
-      description: "Aspire Academy empowers kids and teenagers with the confidence and capabilities to shape tomorrow through STEAM. We make learning practical, inspiring, and deeply connected to real life.",
+      title: "Aon Academy",
+      description: "Aon Academy empowers kids and teenagers with the confidence and capabilities to shape tomorrow through STEAM. We make learning practical, inspiring, and deeply connected to real life.",
     },
     pageCta: {
       backHome: "Back Home",
       exploreCourses: "Explore Courses",
     },
     footer: {
-      academyName: "Aspire Academy",
+      academyName: "Aon Academy",
       tagline: "Pioneer the possible",
       contactUs: "Contact Us",
       emailLabel: "Email",

@@ -5,8 +5,8 @@ import { defaultLocale } from "@/i18n/config";
 import { getCourseSummaries } from "@/lib/courses-db";
 
 export const metadata: Metadata = {
-  title: "Discover Courses | Aspire Academy",
-  description: "Explore Aspire Academy courses and find the best learning path.",
+  title: "Discover Courses | Aon Academy",
+  description: "Explore Aon Academy courses and find the best learning path.",
 };
 
 export default function DiscoverCoursesPage() {

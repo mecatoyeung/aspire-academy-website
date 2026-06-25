@@ -1,4 +1,4 @@
-# Aspire Academy Website
+# Aon Academy Website
 
 ## Course Data (SQLite)
 

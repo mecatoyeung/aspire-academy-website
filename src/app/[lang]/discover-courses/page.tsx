@@ -22,7 +22,7 @@ export async function generateMetadata({
   const copy = getCourseUiCopy(lang);
 
   return {
-    title: `${copy.listTitle} | Aspire Academy`,
+    title: `${copy.listTitle} | Aon Academy`,
     description: copy.listDescription,
   };
 }

@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: CourseDetailPageProps): Promi
   }
 
   return {
-    title: `${course.name} | Aspire Academy`,
+    title: `${course.name} | Aon Academy`,
     description: course.excerpt,
   };
 }

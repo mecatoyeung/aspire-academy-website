@@ -32,7 +32,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${course.name} | Aspire Academy`,
+    title: `${course.name} | Aon Academy`,
     description: course.excerpt,
   };
 }
