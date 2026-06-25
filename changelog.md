@@ -9,3 +9,4 @@
   - Update Company Name and Logo
   - Improve SEO performance
   - Use white background forcefully
+  - Use cached images to improve performance

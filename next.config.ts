@@ -15,6 +15,21 @@ const nextConfig: NextConfig = {
   },
   basePath,
   assetPrefix: basePath || undefined,
+  async headers() {
+    return [
+      {
+        source: '/img/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            // Cache for 1 day (86400 seconds)
+            // We removed 'immutable' since the cache is much shorter now
+            value: 'public, max-age=86400, stale-while-revalidate=86400',
+          },
+        ],
+      },
+    ];
+  },
 };
 
 export default nextConfig;
