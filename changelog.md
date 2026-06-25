@@ -5,3 +5,7 @@
   - Add Traditional Chinese version
   - Update social media links to use icon instead of text links
   - Add Course List page and Course Detail page
+2026-06-26 4th version
+  - Update Company Name and Logo
+  - Improve SEO performance
+  - Use white background forcefully

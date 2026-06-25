@@ -23,10 +23,10 @@ const courseCardStyles = [
 ] as const;
 
 const courseImages = [
-  "/img/mascot-creative-math-and-design.jpg",
-  "/img/mascot-science-explorers.jpg",
-  "/img/mascot-coding-and-ai-studio.jpg",
-  "/img/mascot-engineer-builders.jpg",
+  "/img/mascot-creative-math-and-design.webp",
+  "/img/mascot-science-explorers.webp",
+  "/img/mascot-coding-and-ai-studio.webp",
+  "/img/mascot-engineer-builders.webp",
 ] as const;
 
 function getPageHref(locale: Locale, page: "home" | SectionSlug) {
@@ -82,7 +82,7 @@ function Hero({ locale }: { locale: Locale }) {
 
       <div className="rounded-3xl border border-white bg-white/85 p-4 shadow-2xl backdrop-blur-lg">
         <Image
-          src={`${basePath}/img/mascot-riding-a-rocket.jpg`}
+          src={`${basePath}/img/mascot-riding-a-rocket.webp`}
           alt={copy.hero.imageAlt}
           width={1200}
           height={900}
