@@ -62,15 +62,15 @@ export function CourseImageRevealCard({
           className="mb-0 h-72 w-full object-contain md:mb-1 md:h-144 md:object-cover"
         />
 
-        <div
+        {/*<div
           className={`pointer-events-none absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-900/45 to-transparent transition-opacity duration-700 ${
             isVisible ? "opacity-100" : "opacity-0"
           }`}
           aria-hidden="true"
-        />
+        />*/}
 
         <div
-          className={`pointer-events-none absolute inset-x-0 bottom-0 p-4 text-white transition-all duration-700 ${
+          className={`pointer-events-none absolute inset-x-0 bottom-0 p-4 text-white bg-black/30 transition-all duration-700 ${
             isVisible ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
           }`}
         >
