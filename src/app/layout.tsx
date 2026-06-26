@@ -1,7 +1,12 @@
 import { Nunito, Poppins } from "next/font/google";
-import type { Viewport } from "next";
+import type { Metadata, Viewport } from "next";
+
+import { defaultLocale } from "@/i18n/config";
+import { getMessages } from "@/i18n/messages";
 
 import "./globals.css";
+
+const defaultMessages = getMessages(defaultLocale);
 
 const nunito = Nunito({
   variable: "--font-nunito",
@@ -19,6 +24,11 @@ const poppins = Poppins({
 export const viewport: Viewport = {
   colorScheme: "light",
   themeColor: "#ffffff",
+};
+
+export const metadata: Metadata = {
+  title: defaultMessages.metadata.title,
+  description: defaultMessages.metadata.description,
 };
 
 export default function RootLayout({
